@@ -1,0 +1,15 @@
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\bin\Debug\net6.0\Sitecore.exe
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\bin\Debug\net6.0\Sitecore.deps.json
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\bin\Debug\net6.0\Sitecore.runtimeconfig.json
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\bin\Debug\net6.0\Sitecore.dll
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\bin\Debug\net6.0\Sitecore.pdb
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.csproj.AssemblyReference.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.AssemblyInfoInputs.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.AssemblyInfo.cs
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.csproj.CoreCompileInputs.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.dll
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\refint\Sitecore.dll
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.pdb
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\Sitecore.genruntimeconfig.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Sitecore\obj\Debug\net6.0\ref\Sitecore.dll

@@ -1,0 +1,15 @@
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\bin\Debug\net6.0\Minefield.exe
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\bin\Debug\net6.0\Minefield.deps.json
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\bin\Debug\net6.0\Minefield.runtimeconfig.json
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\bin\Debug\net6.0\Minefield.dll
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\bin\Debug\net6.0\Minefield.pdb
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.csproj.AssemblyReference.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.AssemblyInfoInputs.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.AssemblyInfo.cs
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.csproj.CoreCompileInputs.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.dll
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\refint\Minefield.dll
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.pdb
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\Minefield.genruntimeconfig.cache
+C:\Users\Win Yan\OneDrive\Desktop\Web Application\Sitecore\Minefield\obj\Debug\net6.0\ref\Minefield.dll
