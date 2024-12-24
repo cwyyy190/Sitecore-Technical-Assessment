@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore", "Sitecore\Sitecore.csproj", "{4391AD72-3628-401E-999C-59F51983C132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figure", "Sitecore\Figure.csproj", "{4391AD72-3628-401E-999C-59F51983C132}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{0054873D-BEB2-4A21-B011-D24A2A21A498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield", "Minefield\Minefield.csproj", "{F5B44774-6711-4410-A912-3C8C665F9164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield", "Minefield\Minefield.csproj", "{F5B44774-6711-4410-A912-3C8C665F9164}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

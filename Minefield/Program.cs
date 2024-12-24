@@ -5,7 +5,6 @@ public class Program
 {
     static void Main()
     {
-        
         char[][] field = new char[][] {
             new char[] { '#', 'O', '#', '#', '#' },
             new char[] { '#', 'O', 'O', '#', 'O' },
@@ -15,11 +14,10 @@ public class Program
             new char[] { '#', 'O', '#', '#', '#' }
         };
 
-        // Define starting point
         int startRow = 0;
         int startCol = -1;
 
-        // Search for starting point (entrance)
+        // search for starting point
         for (int col = 0; col < field[0].Length; col++)
         {
             if (field[startRow][col] == 'O')
@@ -29,38 +27,30 @@ public class Program
             }
         }
 
-        // If no entrance
-        if (startCol == -1)
+        Tuple<List<Tuple<int, int>>, List<Tuple<int, int>>> safePath = FindSafePath(field, startRow, startCol);
+
+
+        if (safePath != null)
         {
-            Console.WriteLine("No starting point found in row 0");
+            List<Tuple<int, int>> path = safePath.Item1;
+            List<Tuple<int, int>> ally = safePath.Item2;
+
+            Console.WriteLine("\nTotoshka's Path:");
+            foreach (var step in path)
+            {
+                Console.WriteLine($"({step.Item1}, {step.Item2})");
+            }
+            Console.WriteLine("\nAlly's Path:");
+            foreach (var step in ally)
+            {
+                Console.WriteLine($"({step.Item1}, {step.Item2})");
+            }
         }
         else
         {
-            Tuple<List<Tuple<int, int>>, List<Tuple<int, int>>> safePath = FindSafePath(field, startRow, startCol);
-
-
-            if (safePath != null)
-            {
-                List<Tuple<int, int>> path = safePath.Item1;
-                List<Tuple<int, int>> ally = safePath.Item2;
-
-                Console.WriteLine("CROSSING MINEFIELD COMPLETED");
-                Console.WriteLine("Totoshka's Path:");
-                foreach (var step in path)
-                {
-                    Console.WriteLine($"({step.Item1}, {step.Item2})");
-                }
-                Console.WriteLine("Ally's Path:");
-                foreach (var step in ally)
-                {
-                    Console.WriteLine($"({step.Item1}, {step.Item2})");
-                }
-            }
-            else
-            {
-                Console.WriteLine("No safe path found");
-            }
+            Console.WriteLine("No safe path found");
         }
+
     }
 
     public static Tuple<List<Tuple<int, int>>, List<Tuple<int, int>>> FindSafePath(char[][] field, int startRow, int startCol)
@@ -90,23 +80,23 @@ public class Program
                 return false;
             }
 
-            // Save visited platform into stack
+            // save visited platform into stack
             visited[new Tuple<int, int>(row, col)] = true;
             path.Add(new Tuple<int, int>(row, col));
 
-            // Ally always behind Toto by 1
+            // Ally behind Toto by 1
             if (path.Count > 1)
             {
                 pathAlly.Add(new Tuple<int, int>(allyRow, allyCol));
             }
 
-            // Goal: if reached last row
+            // if reached last row
             if (row == rows - 1)
             {
                 return true;
             }
 
-            // Attempt all 8 directions
+            // attempt all 8 directions
             foreach (var direction in directions)
             {
                 int newRow = row + direction.Item1;
@@ -128,7 +118,7 @@ public class Program
             }
             path.RemoveAt(path.Count - 1);
 
-            // To check for collisions (Toto and Ally != the same spot)
+            // check for collisions (Toto and Ally != the same spot)
             if (path.Count > 0 && pathAlly.Count > 0 && path[path.Count - 1].Equals(pathAlly[pathAlly.Count - 1]))
             {
                 Console.WriteLine("Totoshka and Ally collided!");
@@ -138,7 +128,7 @@ public class Program
             return false;
         }
 
-        // Return Toto and Ally path if true    
+        // return Toto and Ally path if true    
         if (DFS(startRow, startCol, -1, -1))
         {
             return new Tuple<List<Tuple<int, int>>, List<Tuple<int, int>>>(path, pathAlly);
@@ -148,6 +138,5 @@ public class Program
             return null;
         }
 
-        //throw new NotImplementedException();
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Palindrome
 {
-    class Palindrome
+    class Program
     {
         static void Main()
         {

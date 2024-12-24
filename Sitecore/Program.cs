@@ -145,7 +145,7 @@ namespace SimpleFigures
         }
     }
 
-    class Figures
+    class Program
     {
 
         static void Main(string[] args)
